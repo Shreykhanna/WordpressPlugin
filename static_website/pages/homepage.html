@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/homepage.css">
+        <body>
+           <div class="nav-bar">
+               
+               <ul>
+                   <li><a href="#">LABEL</a></li>
+                   <li><a href="#">LABEL</a></li>
+                   <li><a href="#">LABEL</a></li>
+               </ul>
+               <button class="button_signin">Sign In</button>
+           </div>
+        <div class="content-wrapper">
+            <img class="background" src="../images/background_image.jpg" alt="background-image">
+            
+            <div class="text-wrapper-one">
+                <h1>* Our Mission *</h1>
+            </div>
+            <div class="text-wrapper-two">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor massa tortor, 
+                    et condimentum massa iaculis et.</h2>
+            </div>  
+        </div>
+    <div> 
+        <section class="description-section">
+            <h2 class="about-h2">About</h2>
+            <p class="paragraph-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor massa tortor, 
+                et condimentum massa iaculis et. Donec sed lorem sed enim convallis pharetra. 
+                Pellentesque velit orci, mollis eget ex ac, mollis pretium enim. Nunc euismod sem et eros eleifend pulvinar. 
+                Proin vitae odio dolor. Aenean et ultrices nulla, in venenatis libero. Ut tempor venenatis nunc, 
+                in tempor mauris condimentum id. Phasellus faucibus tortor nisi, 
+                sit amet aliquet odio posuere in. Curabitur quis feugiat justo.</p>
+        </section>
+    </div>
+        <section class="team-section">
+            <h2 class="team-heading">Team</h2>
+            <div class="outer-div">
+                <div class="first-div">
+                    <img  id="profile_pic_first"  src="../images/profile_pic_first.jpeg"> 
+                    <div class="div-name"><span id="name_first">John Doe</span></div>
+                    <div><span id="designation_first">Founder & CEO</span></div>
+                 </div>
+                <div class="second-div">  
+                    <img id="profile_pic_second" src="../images/profile_pic_second.jpeg">
+                    <div><span id="name_second">John Doe</span></div>
+                    <div><span id="designation_second">Co-Founder</span></div>
+                </div>
+                <div class="third-div">   
+                    <img id="profile_pic_third"  src="../images//profile_pic_third.jpeg">
+                    <div><span id="name_third">John Doe</span></div>
+                    <div><span id="designation_third">Investor</span></div>
+                </div>
+            </div>
+            <h3 class="heading_workwithus">WORK WITH US</h3>
+        </section>
+        <section class="location-section">
+            <div id="map"></div>
+          <script>
+            function initMap() {
+             var location = {lat: -25.344, lng: 131.036};
+             var map = new google.maps.Map(
+             document.getElementById('map'), {zoom: 4, center: location});
+            var marker = new google.maps.Marker({position: location, map: map});
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVOkZ_X6yct8Oez0MMFjnTq1_ZUp91uPM&callback=initMap"></script>
+        </section>
+        <footer class="footer-section">
+         <div class="footer-links-left">
+            <a href="#">ABOUT<a>
+            <a href="#">FAQ</a>
+            <a href="#">WORK WITH US</a>
+            </div>
+          <div class="footer-links-right">  
+            <a href="#"> <img id="email" src="../images/email_link.png"> <a>
+            <a href="#"> <img id="fb" src="../images/fb_link_image.png"> </a>
+            <a href="#"> <img id="twitter" src="../images/twitter_image_link.png"> </a>
+          </div>  
+          <span class="link-policies">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">@Company.LLC 2014</a>
+          </span>
+          </footer>
+        </body>
+    </head>
+</html>
