@@ -163,11 +163,10 @@ footer.footer-section {
     height: 100%;
     text-align: center;
 }
-footer.footer-section div.footer-links-left a{
-    color: white;
-}
+
 footer.footer-section div.footer-links-left a{
     margin-right: 1em;
+    color: white;
 }
 footer.footer-section div.footer-links-left{
     float:left;
@@ -182,7 +181,7 @@ footer.footer-section div.footer-links-right a{
 footer.footer-section div.footer-links-right{
     padding-top:2%;
     padding-right: 2%;
-    margin-left: 60%;
+    margin-left: 40%;
     text-decoration: none;
 }
 footer.footer-section div.footer-links-right a img#email,img#fb,img#twitter{
@@ -191,12 +190,13 @@ footer.footer-section div.footer-links-right a img#email,img#fb,img#twitter{
 
 }
 footer.footer-section span a{
-    margin-right: 1em;
+    margin-right: 1%;
     color: white;
+    font-size: 0.8em;
 }
 footer.footer-section span.link-policies{
     margin-top: 2em;
-    padding-left: 60%;
+    padding-left: 40%;
 }
 
 @media screen and (max-width:880px){
@@ -271,6 +271,39 @@ footer.footer-section span.link-policies{
           color: white;
           font-size: 1em;
       }
+    footer.footer-section div.footer-links-left a{
+        margin-right: 1%;
+        color: white;
+    }
+    footer.footer-section div.footer-links-left{
+        float:left;
+        padding-top:3%;
+        padding-left:4%;
+        text-decoration: none;
+        
+    }
+    footer.footer-section div.footer-links-left a{
+        margin-right: 1em;
+        color: white;
+        font-size: 1em;
+    }
+    footer.footer-section div.footer-links-left{
+        float:left;
+        padding-top:3%;
+        padding-left:10%;   
+        text-decoration: none;
+        
+    }
+    footer.footer-section span a{
+        margin-right: 1%;
+        color: white;
+        font-size: 0.8em;
+    }
+    footer.footer-section span.link-policies{
+        margin-top: 2em;
+        padding-left: 8%;
+        font-size: 1em;
+    }
     
 }
 @media screen and (max-width:773px){
@@ -350,6 +383,29 @@ footer.footer-section span.link-policies{
         transform: translate(-50%, -50%);
         list-style-type: none;
       }
+
+    footer.footer-section div.footer-links-left a{
+        margin-right: 0.2%;
+        color: white;
+        font-size: 0.8em;
+    }
+    footer.footer-section div.footer-links-left{
+        float:left;
+        padding-top:3%;
+        padding-left:7%;
+        text-decoration: none;
+        
+    } 
+    footer.footer-section span a{
+        margin-right: 1%;
+        color: white;
+        font-size: 0.8em;
+    }
+    footer.footer-section span.link-policies{
+        margin-top: 2em;
+        padding-left: 20%;
+        font-size: 0.8em;
+    }
 }
 @media screen and (max-width:682px){
     .nav-bar{
@@ -474,6 +530,28 @@ footer.footer-section span.link-policies{
         padding-left: 44%;
         color: white;
         font-size: 1em;
+    }
+    footer.footer-section div.footer-links-left a{
+        margin-right: 1em;
+        color: white;
+        font-size: 0.8em;
+    }
+    footer.footer-section div.footer-links-left{
+        float:left;
+        padding-top:3%;
+        padding-left:10%;   
+        text-decoration: none;
+        
+    }
+    footer.footer-section span a{
+        margin-right: 1%;
+        color: white;
+        font-size: 1em;
+    }
+    footer.footer-section span.link-policies{
+        margin-top: 2em;
+        padding-left: 2%;
+        font-size: 0.6em;
     }
     
 }
